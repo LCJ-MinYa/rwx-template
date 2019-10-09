@@ -1,0 +1,24 @@
+{
+  "name": "rwx-template",
+  "version": "1.0.0",
+  "description": "init rwx template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib",
+    "start": "npm run build && node lib/index"
+  },
+  "keywords": [
+    "rwx",
+    "template"
+  ],
+  "author": "LiChaoJun",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  },
+  "dependencies": {
+    "ejs": "^2.7.1"
+  }
+}
