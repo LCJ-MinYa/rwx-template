@@ -84,7 +84,7 @@ const createJs = async function () {
 
     const templateJsPath = path.join(rootPath, '/template/js/index.js');
     const writeJsPath = path.join(mkdirJsPath, '/' + config.name + '.js');
-    await ejsFile(templateJsPath, writeJsPath, '4.创建js文件夹成功');
+    await ejsFile(templateJsPath, writeJsPath, '5.创建js文件夹成功');
 }
 
 /*开始创建模板*/
