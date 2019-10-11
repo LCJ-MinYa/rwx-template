@@ -14,6 +14,6 @@ export default {
     name: 'test',
     title: '首页',
     type: 1,
-    hasSwiper: false,
-    deepImg: true,
+    hasSwiper: true,
+    deepImg: false,
 }
